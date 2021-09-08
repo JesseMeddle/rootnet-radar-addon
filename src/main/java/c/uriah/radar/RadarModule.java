@@ -25,7 +25,7 @@ public final class RadarModule extends AddonModule {
 		Iterator iterator = mc.world.playerEntities.iterator();
 		Gui.drawRect(108, 12, 2,  29, 0x50000000);
 		Gui.drawRect(106, 14, 4,  27, new Color(50,205,50, 240).getRGB());
-		fr.drawString("Radar-Addon", 6, 17, 0xffffff);
+		fr.drawString("Radar-Addon", 8, 17, 0xffffff);
 
 		for (EntityPlayer nextPlayer : mc.world.playerEntities) {		
 		    do{
