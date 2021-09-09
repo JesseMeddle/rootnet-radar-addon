@@ -39,7 +39,7 @@ public final class RadarModule extends AddonModule {
 		    while(nextPlayer.getName().equals(mc.player.getName()));
 		    Gui.drawRect(108, y+27, 2, y+38, 0x50000000);
 			Gui.drawRect(106, y+27, 4, y+38, 0x50000000);
-		    fr.drawStringWithShadow(nextPlayer.getName()+" " +(int)mc.player.getDistance(nextPlayer), 5, y+29, 0xffffff);
+		    fr.drawStringWithShadow(nextPlayer.getName()+" " +(int)mc.player.getDistance(nextPlayer), 8, y+29, 0xffffff);
 		    y+= fr.FONT_HEIGHT+2;	
 		}
 	}
